@@ -1,7 +1,5 @@
 name: Android Kernel Action
 on:
-  push:
-    tags: '*'
   [workflow_dispatch]:
 jobs:
   build:
