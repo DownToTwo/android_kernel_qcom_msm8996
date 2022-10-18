@@ -11,7 +11,7 @@ jobs:
     - name: Checkout zipper
       uses: actions/checkout@v2
       with:
-        repository: LineageOS/android_kernel_qcom_msm8996/
+        repository: LineageOS/android_kernel_qcom_msm8996
         path: zipper
 
     - name: Android kernel build
